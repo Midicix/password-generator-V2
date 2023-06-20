@@ -48,6 +48,6 @@ saisie_btn_caractere = canvas.create_window(250, 380, window=btn_caractere)
 def choix(var):
     var = str(var)
     fenetre.destroy()
-    os.system('python générateur_de_mdp-'+var+'.py')
+    os.system('python password_generator-'+var+'.py')
 
 fenetre.mainloop()
